@@ -59,9 +59,9 @@ MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
 PACKAGE_DATA = {} # {'nsd_access': [pjoin('data', '*')]}
-REQUIRES = ["numpy", "scikit-learn", "scipy", "nibabel",
+REQUIRES = ["numpy", "sklearn", "scipy", "nibabel",
             "nilearn", "cifti", "h5py", "pyyaml", "pandas"]
-DEP_LINKS = []
+DEP_LINKS = ['git+https://github.com/cocodataset/cocoapi/tree/master/PythonAPI']
 
 
 
