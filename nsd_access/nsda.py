@@ -14,8 +14,6 @@ import urllib.request
 import zipfile
 from pycocotools.coco import COCO
 
-from IPython import embed
-
 
 class NSDAccess(object):
     """
